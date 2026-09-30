@@ -24,6 +24,7 @@ import {
 const VERCEL_JSON_CONTENT = `{
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "vite",
+  "installCommand": "npm install --legacy-peer-deps",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "rewrites": [
@@ -67,7 +68,7 @@ export default function App() {
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
   const [simulatedPath, setSimulatedPath] = useState('/dashboard');
   const [simulatedStatus, setSimulatedStatus] = useState<string | null>(null);
-  const [repoUrl, setRepoUrl] = useState('https://github.com/afreedkhan8000/my-project.git');
+  const [repoUrl, setRepoUrl] = useState('https://github.com/afreedkhan086/hgggff.git');
 
   const copyToClipboard = (text: string, key: string) => {
     navigator.clipboard.writeText(text);
