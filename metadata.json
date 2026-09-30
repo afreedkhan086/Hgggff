@@ -1,0 +1,6 @@
+{
+  "name": "Vercel Deploy Hub",
+  "description": "Production Vercel deployment configuration, vercel.json setup, build verifier, and step-by-step online hosting guide for web projects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
